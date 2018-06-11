@@ -1,0 +1,43 @@
+## Basic Bootstrapping Projet. ##
+
+Create Virtual Environment
+
+### STEP 1 #### Install PIP first and Virtual Environment. ####
+REF : https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
+
+REF : http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+Other refernce for Project Bootstrapping / Entry Point.
+
+https://pythonhosted.org/an_example_pypi_project/setuptools.html
+
+
+
+python setup.py  build
+
+python setup.py install
+
+Points to implement and follow while coding.
+
+1.  Namespace / Packages to properly manage the imports.
+2.  Will implement pep8 standards in code with using of pep8 tools which rectify and provide reports where we need to do that.
+3.  Coding practices to match pep8 and consistency.
+4.  Make proper use of pip installations and requirements.txt 
+5.  Exception handling (try/except block)
+6.  If we are going to interact with database then proper use of ACID / Transactions.
+7.  Decorators (Will use if not used)
+8.  Common classes and functions to reduce duplicate code (DRY method)
+9.  Generators will use to reduce lazy loading or to improve performance.
+10. Make a proper use of list, tuple, dict etc. other builtin functions.
+11. Debugging methods like pdb etc. to avoid commented codes.
+12. Profiling if required.
+13. Good / proper use of python modules which by comparing like json etc.
+14. Good use of args and kwargs.
+15. Caching if needed.
+16. Constant file to import into the project
+17. Bootstrapping for complete project using setuptools.
+        __init__.py
+        __main__.py
+18. Creating Virtual Environment to install pip in env only.
+19. Will decide if we really need to use class base.
+20. 
