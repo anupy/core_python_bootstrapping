@@ -44,3 +44,11 @@ print(node2)
 print("\r")
 print(node3) 
 print("\r")
+
+
+# https://realpython.com/copying-python-objects/
+'''3 Things to Remember
+
+    Making a shallow copy of an object won’t clone child objects. Therefore, the copy is not fully independent of the original.
+    A deep copy of an object will recursively clone child objects. The clone is fully independent of the original, but creating a deep copy is slower.
+    You can copy arbitrary objects (including custom classes) with the copy module.'''
