@@ -3,3 +3,4 @@ project.egg-info/
 build/
 __pycache__/
 *.pyc
+practice/*
